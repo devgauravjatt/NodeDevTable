@@ -52,26 +52,26 @@ async function Write_dependencies(line_number) {
     if (packageJson.dependencies) {
         depDevTable = toTable(packageJson.dependencies);
         depDevTable = `
-### <img width="20" src="./img/dev.svg" /> Dependencies :-
+### <img width="30" src="https://raw.githubusercontent.com/devgauravjatt/NodeDevTable/main/images/main.svg" /> Dependencies :-
 ${depDevTable}
 `;
     }
     if (packageJson.devDependencies) {
         devDepTable = toTable(packageJson.devDependencies);
         devDepTable = `
-### <img width="20" src="./img/dev.svg" /> Dev Dependencies :-
+### <img width="30" src="https://raw.githubusercontent.com/devgauravjatt/NodeDevTable/main/images/dev.svg" /> Dev Dependencies :-
 ${devDepTable}
 `;
     }
     if (packageJson.peerDependencies) {
         peerDepTable = toTable(packageJson.peerDependencies);
         peerDepTable = `
-### <img width="20" src="./img/peer.svg" /> Peer Dependencies :-
+### <img width="30" src="https://raw.githubusercontent.com/devgauravjatt/NodeDevTable/main/images/peer.svg" /> Peer Dependencies :-
 ${peerDepTable}
 `;
     }
     const myTable = `
-## <img width="20" src="./img/npm.svg" /> This project uses the following dependencies -
+## <img width="50" src="https://raw.githubusercontent.com/devgauravjatt/NodeDevTable/main/images/npm.svg" /> This project uses the following dependencies -
 ${depDevTable}${devDepTable}${peerDepTable}
 `;
     try {

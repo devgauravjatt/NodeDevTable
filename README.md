@@ -1,6 +1,20 @@
-## <img width="50" src="./images/npm.svg" /> This project uses the following dependencies -
+## 💻 NodeDevTable
 
-### <img width="30" src="./images/main.svg" /> Dependencies :-
+## is a CLI tool to create a table of dependencies in markdown format.
+
+<img width="500" src="./images/show.png">
+
+## ⬇ Installation and Usage
+
+`npm install -g @devgauravjatt/NodeDevTable`
+
+and Run with `nodedevtable`
+
+## ⬇ Demo
+
+## <img width="50" src="https://raw.githubusercontent.com/devgauravjatt/NodeDevTable/main/images/npm.svg" /> This project uses the following dependencies -
+
+### <img width="30" src="https://raw.githubusercontent.com/devgauravjatt/NodeDevTable/main/images/main.svg" /> Dependencies :-
 
 | Package Name      | Version |
 | :---------------- | :------ |
@@ -12,7 +26,7 @@
 | markdown-table-ts | ^1.0.3  |
 | nanospinner       | ^1.1.0  |
 
-### <img width="30" src="./images/dev.svg" /> Dev Dependencies :-
+### <img width="30" src="https://raw.githubusercontent.com/devgauravjatt/NodeDevTable/main/images/dev.svg" /> Dev Dependencies :-
 
 | Package Name           | Version  |
 | :--------------------- | :------- |
