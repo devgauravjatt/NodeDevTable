@@ -1,6 +1,6 @@
 {
 	"name": "nodedevtable",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"description": "is a CLI tool to create a table of dependencies in markdown format.",
 	"publisher": "devgaruavjatt",
 	"type": "module",
@@ -12,7 +12,7 @@
 	},
 	"homepage": "https://github.com/devgauravjatt/NodeDevTable",
 	"bugs": "https://github.com/devgauravjatt/NodeDevTable/issues",
-	"author": "Dev gaurav Jatt",
+	"author": "DevGauravJatt",
 	"keywords": [
 		"markdown-table",
 		"node-table",

@@ -1,7 +1,7 @@
 {
   "name": "nodedevtable",
   "displayName": "NodeDevTable",
-  "description": "is a CLI tool to create a table of dependencies in markdown format.",
+  "description": "is a Node Developers tool to create a table of dependencies in markdown format.",
   "icon": "images/icon.png",
   "version": "0.0.6",
   "engines": {
