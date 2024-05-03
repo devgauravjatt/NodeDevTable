@@ -1,0 +1,55 @@
+{
+  "name": "nodedevtable",
+  "displayName": "NodeDevTable",
+  "description": "is a CLI tool to create a table of dependencies in markdown format.",
+  "icon": "images/icon.png",
+  "version": "0.0.6",
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devgauravjatt/NodeDevTable"
+  },
+  "homepage": "https://github.com/devgauravjatt/NodeDevTable",
+  "publisher": "DevGauravJatt",
+  "keywords": [
+    "markdown-table",
+    "node-table",
+    "dependencies-tables",
+    "dependencies"
+  ],
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./build/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "nodedevtable.run",
+        "title": "NodeDevTable : Run"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "pnpm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "pnpm run compile && pnpm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.6",
+    "@types/node": "18.x",
+    "@types/vscode": "^1.88.0",
+    "@typescript-eslint/eslint-plugin": "^7.7.1",
+    "@typescript-eslint/parser": "^7.7.1",
+    "eslint": "^8.57.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "markdown-table-ts": "^1.0.3"
+  }
+}
