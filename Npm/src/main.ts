@@ -18,7 +18,7 @@ const runApp = async () => {
 	})
 	chalkAnimation.karaoke(mybox, 1)
 
-	await new Promise((resolve) => setTimeout(resolve, 2000))
+	// await new Promise((resolve) => setTimeout(resolve, 2000))
 
 	const answer = await input({ message: 'Add a line number to the table ?' })
 	const getLinenumber = Number(answer)

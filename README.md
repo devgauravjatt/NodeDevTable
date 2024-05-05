@@ -1,14 +1,28 @@
-## 💻 NodeDevTable
+### 😎 NodeDevTable: Your CLI Tool for Dependency Tables and VS Code Extension
 
-## is a CLI tool to create a table of dependencies in markdown format.
+NodeDevTable is a versatile tool that simplifies the creation of dependency tables both as a CLI tool and a VS Code extension. It enhances project readability and ensures proper documentation.
 
-<img width="500" src="./images/show.png">
+### 💻 Installation and Usage
 
-## ⬇ Installation and Usage
+<img width="500" src="https://raw.githubusercontent.com/devgauravjatt/NodeDevTable/main/images/show.png">
 
-`npm install -g @devgauravjatt/NodeDevTable`
+#### CLI Tool:
 
-and Run with `nodedevtable`
+To install NodeDevTable as a CLI tool, use npm:
+
+```
+npm i -g nodedevtable
+```
+
+After installation, run NodeDevTable with:
+
+```
+nodedevtable
+```
+
+#### VS Code Extension:
+
+NodeDevTable is also available as a VS Code extension. You can install it directly from the Visual Studio Code Marketplace or by searching "NodeDevTable" in the Extensions view of VS Code.
 
 ## ⬇ Demo
 
@@ -35,3 +49,13 @@ and Run with `nodedevtable`
 | @types/node            | ^20.12.7 |
 | ts-node                | ^10.9.2  |
 | typescript             | ^5.4.5   |
+
+Got it! Here's a refined version of NodeDevTable with improvements and an added VS Code extension:
+
+#### VS Code Extension:
+
+You can generate dependency tables directly within VS Code by invoking the NodeDevTable extension. Simply open the Command Palette (Ctrl/Cmd + Shift + P) and search for "NodeDevTable: Generate Dependency Table".
+
+### 🚀 Get Started!
+
+NodeDevTable simplifies dependency documentation, whether you prefer CLI or VS Code. Install it today and streamline your project management!

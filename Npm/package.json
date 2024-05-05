@@ -1,6 +1,6 @@
 {
 	"name": "nodedevtable",
-	"version": "0.0.6",
+	"version": "0.0.7",
 	"description": "is a CLI tool to create a table of dependencies in markdown format.",
 	"publisher": "devgaruavjatt",
 	"type": "module",

@@ -1,18 +1,26 @@
-## 💻 NodeDevTable
+### 😎 NodeDevTable: Your CLI Tool for Dependency Tables
 
-## is a CLI tool to create a table of dependencies in markdown format.
+NodeDevTable is a Command Line Interface (CLI) tool that simplifies the creation of dependency tables in markdown format. It enhances readability of your project's dependencies and ensures proper documentation.
 
-<img width="500" src="https://github.com/devgauravjatt/NodeDevTable/raw/main/images/show.png">
+### 💻 Installation and Usage
 
-## ⬇ Installation and Usage
+<img width="500" src="https://raw.githubusercontent.com/devgauravjatt/NodeDevTable/main/images/show.png">
 
-`npm i -g nodedevtable`
+To install NodeDevTable, use the npm package manager with the following command:
 
-and Run with `nodedevtable`
+```
+npm i -g nodedevtable
+```
 
-## ⬇ Demo
+After installation, you can run NodeDevTable with the command:
 
-## <img width="50" src="https://raw.githubusercontent.com/devgauravjatt/NodeDevTable/main/images/npm.svg" /> This project uses the following dependencies -
+```
+nodedevtable
+```
+
+### ⬇ Demo
+
+### <img width="50" src="https://raw.githubusercontent.com/devgauravjatt/NodeDevTable/main/images/npm.svg" /> This project uses the following dependencies -
 
 ### <img width="30" src="https://raw.githubusercontent.com/devgauravjatt/NodeDevTable/main/images/main.svg" /> Dependencies :-
 
