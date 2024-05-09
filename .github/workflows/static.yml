@@ -2,7 +2,7 @@ name: DevOps-GitHibActions
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["main"]
+    branches: ["web"]
 jobs:
   # Build Job
   build:
